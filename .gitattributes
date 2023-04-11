@@ -1,2 +1,20 @@
-# Auto detect text files and perform LF normalization
 * text=auto
+
+*.vcproj text eol=crlf
+*.sln text eol=crlf
+*.bat text eol=crlf
+
+*.sh text eol=lf
+
+*.doc -text
+*.pptx -text
+*.pdf -text
+*.jpg -text
+*.jpeg -text
+*.png -text
+*.hdr -text
+*.bmp -text
+*.obj -text
+*.gltf text
+*.dll -text
+*.lib -text
